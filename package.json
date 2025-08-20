@@ -1,0 +1,16 @@
+{
+  "name": "namaste-node-practice",
+  "version": "1.0.0",
+  "description": "this is just a collection of small code snippttes meant for practice of node js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start":" node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
