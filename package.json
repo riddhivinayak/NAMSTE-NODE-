@@ -5,12 +5,13 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start":" node app.js",
+    "start": " node app.js",
     "dev": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
   }
 }
