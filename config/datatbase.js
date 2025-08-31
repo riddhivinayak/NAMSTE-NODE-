@@ -1,7 +1,10 @@
 import mongoose from 'mongoose';
-import pass from './password.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
+//import {username,pass} from './password.js';
 const connectDB = async () => {
-    await mongoose.connect("mongodb+srv://riddhivinayak001:"+pass+"@mastetest1.lgurj.mongodb.net/devTinder");
+ await mongoose.connect(process.env.MONGO_URI);
 };// writing a name infornt of the url connects to specifc database if not present then it creates a new one
  
 export default connectDB;
